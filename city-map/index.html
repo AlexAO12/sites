@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css"
+        integrity="sha384-REHJTs1r2ErKBuJB0fCK99gCYsVjwxHrSU0N7I1zl9vZbggVJXRMsv/sLlOAGb4M" crossorigin="anonymous" />
+</head>
+
+<body>
+    <header class="header">
+    <div class="container">
+        <div class="header__row">
+            <div class="header__menu">
+                <div class="header__menu-column">
+                    <div class="header__logo">
+                        <a class="header__logo-link" href="#"><img class="header__logo-img" src="./img/CityMap_logo.svg"
+                                alt="CityMap Logo"></a>
+                    </div>
+                </div>
+                <div class="header__menu-column">
+                    <div class="header__menu-burger">
+                        <span></span>
+                    </div>
+                    <div class="header__main-menu menu-main">
+                        <nav class="menu-main__nav">
+                            <ul class="menu-main__items">
+                                <li class="menu-main__item"><a href="#" class="menu-main__link">About Us</a></li>
+                                <li class="menu-main__item"><a href="#" class="menu-main__link">Find Place</a></li>
+                                <li class="menu-main__item"><a href="#" class="menu-main__link">City Map</a></li>
+                                <li class="menu-main__item"><a href="#" class="menu-main__link">Contact</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header__row">
+            <div class="header__column">
+                <div class="search-block">
+                    <svg class="search-block__dot" width="7" height="7" viewBox="0 0 7 7" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <circle id="Ellipse 4" opacity="0.2" cx="3.5" cy="3.5" r="3.5" fill="#13F1FC" />
+                    </svg>
+                    <svg class="search-block__dot search-block__dot--sec" width="12" height="12" viewBox="0 0 12 12"
+                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle id="Ellipse 2" opacity="0.2" cx="6" cy="6" r="6" fill="#70DDFF" />
+                    </svg>
+                    <h1 class="search-block__title">Search Your Destination</h1>
+                    <p class="search-block__dscrp">Then select departure date, how long the trip will be and how many
+                        destinations to include. Users can also select if they want to look at cities in Europe, the
+                        European Union or just the Schengen Zone.</p>
+                    <div class="search-block__input-group">
+                        <div class="search-block__input-map map-input">
+                            <svg class="map-input__block-map" width="19" height="25" viewBox="0 0 19 25" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g id="Group 17">
+                                    <g id="mark-shadow">
+                                        <ellipse id="Ellipse" cx="9.5" cy="22.2884" rx="9.5" ry="2.55769"
+                                            fill="#F2F2F2" />
+                                    </g>
+                                    <g id="mini-mark">
+                                        <path id="Subtract" fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M9.94231 17.5385C9.94231 17.5385 16.8846 11.6923 16.8846 6.94231C16.8846 3.10818 13.7764 0 9.94231 0C6.10818 0 3 3.10818 3 6.94231C3 12.0577 9.94231 17.5385 9.94231 17.5385ZM9.94228 9.5C11.7584 9.5 13.2307 8.02771 13.2307 6.21154C13.2307 4.39537 11.7584 2.92308 9.94228 2.92308C8.12611 2.92308 6.65382 4.39537 6.65382 6.21154C6.65382 8.02771 8.12611 9.5 9.94228 9.5Z"
+                                            fill="#13F1FC" />
+                                    </g>
+                                </g>
+                            </svg>
+                        </div>
+                        <input type="text" class="search-block__input" placeholder="Find your place here" required>
+                        <button class="search-block__button" type="submit">
+                            <img class="search-block__button-img" src="./img/inputSearch.svg" alt="">
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="header__column">
+                <div class="header__img-group">
+                    <div class="group-img">
+                        <div class=" group-img__bush-group">
+                            <div class="group-img__bush">
+                                <div class="group-img__top-bush"></div>
+                                <div class="group-img__cloud1"></div>
+                                <div class="group-img__cloud2"></div>
+                                <div class="group-img__cloud3"></div>
+                                <div class="group-img__main-bulding"></div>
+                                <div class="group-img__bulding-left"></div>
+                                <div class="group-img__bulding-right"></div>
+                                <div class="group-img__road"></div>
+                                <div class="group-img__rock"></div>
+                                <div class="group-img__phone-hand"></div>
+                                <div class="group-img__human"></div>
+                                <div class="group-img__dot1"></div>
+                                <div class="group-img__dot2"></div>
+                                <div class="group-img__dot3"></div>
+                                <div class="group-img__map-mark"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header__bg-wave"></div>
+</header>
+    <main class="main-content">
+        <section class="started">
+            <div class="container">
+                <div class="started__block">
+                    <h2 class="started__title">Get Start Search</h2>
+                    <p class="started__title-one">Connect withcity map</p>
+                    <div class="started__img-border">
+                        <img class="started__img anim-item no-animtop" src="./img/img-phone.png" alt="Phone image">
+                        <img class="started__img" src="./img/phone-shadow.png" alt="Phone image">
+                        <img class="started__img" src="./img/img-map.png" alt="Phone image">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="road">
+            <div class="container">
+                <div class="road__block">
+                    <div class="road__bg">
+                        <div class="road__bg-border">
+                            <svg class="road__bg-img" width="1166" height="1758" viewBox="0 0 1166 1758" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M76.2532 1C76.4198 41.6188 91.7531 129.615 151.753 156.648C226.753 190.44 280.253 190.952 356.253 189.928C417.053 189.109 735.42 186.159 880.253 186.5C918.753 186.591 985.8 200.227 1031.75 241.5C1085.75 290 1086.91 335.203 1089.25 375.5C1091.25 409.906 1089.25 586.186 1089.25 642C1089.25 769 1009.25 851 860.753 852L290.753 858.93C162.753 858.93 79.7532 910.916 73.2532 1042.5V1353C67.7532 1462 152.753 1537.67 242.253 1537.67C348.753 1537.67 413.753 1539.37 447.753 1537.67C518.753 1537.67 582.753 1587 586.753 1669.5C586.753 1674.01 586.753 1696.23 586.753 1757.5"
+                                    stroke="url(#paint0_linear)" stroke-width="150" />
+                                <path
+                                    d="M76.2532 1C76.4198 41.6188 91.7531 129.615 151.753 156.648C226.753 190.44 280.253 190.952 356.253 189.928C417.053 189.109 735.42 186.159 880.253 186.5C918.753 186.591 985.8 200.227 1031.75 241.5C1085.75 290 1086.91 335.203 1089.25 375.5C1091.25 409.906 1089.25 586.186 1089.25 642C1089.25 769 1009.25 851 860.753 852L290.753 858.93C162.753 858.93 79.7532 910.916 73.2532 1042.5V1353C67.7532 1462 152.753 1537.67 242.253 1537.67C348.753 1537.67 413.753 1539.37 447.753 1537.67C518.753 1537.67 582.753 1587 586.753 1669.5C586.753 1674.01 586.753 1677.23 586.753 1738.5"
+                                    stroke="url(#paint1_linear)" stroke-width="2" stroke-dasharray="10 15" />
+                                <defs>
+                                    <linearGradient id="paint0_linear" x1="583.805" y1="1" x2="583.805" y2="1707.5"
+                                        gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="white" />
+                                        <stop offset="0.541436" stop-color="#E6E8EC" stop-opacity="0.1" />
+                                        <stop offset="1" stop-color="white" />
+                                    </linearGradient>
+                                    <linearGradient id="paint1_linear" x1="583.805" y1="1" x2="583.805" y2="1707.5"
+                                        gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="white" />
+                                        <stop offset="0.209945" stop-color="#E6E8EC" />
+                                        <stop offset="0.834254" stop-color="#E6E8EC" />
+                                        <stop offset="1" stop-color="white" />
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                            <img class="road__bg-img road__bg-img--mob" src="./img/long-road.png" alt="mobile-road">
+                        </div>
+                    </div>
+                    <div class="road__top-item">
+                        <div class="road__top-border anim-item no-animtop">
+                            <div class="top-road">
+                                <div class="top-road__baggage anim-item no-animtop"></div>
+                                <div class="top-road__travel-people anim-item no-animtop"></div>
+                                <div class="top-road__comment anim-item no-animtop"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="road__block-item">
+                        <div class="way anim-item no-animtop">
+                            <div class="way__decore-wood anim-item no-animtop"></div>
+                            <div class="way__km km-way anim-item no-animtop">
+                                <div class="km-way__decore anim-item no-animtop">
+                                    <div class="km-way__decore-map map-input">
+                                        <svg class="map-input__block-map" width="19" height="25" viewBox="0 0 19 25"
+                                            fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <g id="Group 17">
+                                                <g id="mark-shadow">
+                                                    <ellipse id="Ellipse" cx="9.5" cy="22.2884" rx="9.5" ry="2.55769"
+                                                        fill="#F2F2F2" />
+                                                </g>
+                                                <g id="mini-mark">
+                                                    <path id="Subtract" fill-rule="evenodd" clip-rule="evenodd"
+                                                        d="M9.94231 17.5385C9.94231 17.5385 16.8846 11.6923 16.8846 6.94231C16.8846 3.10818 13.7764 0 9.94231 0C6.10818 0 3 3.10818 3 6.94231C3 12.0577 9.94231 17.5385 9.94231 17.5385ZM9.94228 9.5C11.7584 9.5 13.2307 8.02771 13.2307 6.21154C13.2307 4.39537 11.7584 2.92308 9.94228 2.92308C8.12611 2.92308 6.65382 4.39537 6.65382 6.21154C6.65382 8.02771 8.12611 9.5 9.94228 9.5Z"
+                                                        fill="#13F1FC" />
+                                                </g>
+                                            </g>
+                                        </svg>
+                                    </div>
+                                    <span class="km-way__distance">2.0km</span>
+                                </div>
+                                <h3 class="km-way__title anim-item no-animtop">BRAC ATM Booth</h3>
+                                <p class="km-way__subtitle anim-item no-animtop">Connect with CityMap</p>
+                                <p class="km-way__descrp anim-item no-animtop">According to McClintock, a 15th century
+                                    typesetter likely
+                                    scrambled
+                                    part of Cicero's De Finibus in order to provide placeholder text to mockup various
+                                    fonts
+                                    for a type specimen book.</p>
+                            </div>
+                            <div class="way__img-border">
+                                <div class="img-anim">
+                                    <div class="img-anim__spot anim-item no-animtop"></div>
+                                    <div class="img-anim__leaves anim-item no-animtop"></div>
+                                    <div class="img-anim__grass anim-item no-animtop"></div>
+                                    <div class="img-anim__human-man anim-item no-animtop"></div>
+                                    <div class="img-anim__terminal anim-item no-animtop">
+                                        <div class="img-anim__terminal-screen anim-item no-animtop"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="road__block-item">
+                        <div class="way anim-item no-animtop">
+                            <div class="way__decore-wood2 anim-item no-animtop"></div>
+                            <div class="way__img-border way__img-border--second">
+                                <div class="hospital-group">
+                                    <div class="hospital-group__buildings anim-item no-animtop"></div>
+                                    <div class="hospital-group__plant anim-item no-animtop"></div>
+                                    <div class="hospital-group__doctor1 anim-item no-animtop"></div>
+                                    <div class="hospital-group__doctor2 anim-item no-animtop"></div>
+                                    <div class="hospital-group__heart anim-item no-animtop"></div>
+                                </div>
+                            </div>
+                            <div class="way__km way__km--second km-way km-way--second anim-item no-animtop">
+                                <div class="km-way__decore anim-item no-animtop">
+                                    <div class="km-way__decore-map map-input">
+                                        <svg class="map-input__block-map" width="19" height="25" viewBox="0 0 19 25"
+                                            fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <g id="Group 17">
+                                                <g id="mark-shadow">
+                                                    <ellipse id="Ellipse" cx="9.5" cy="22.2884" rx="9.5" ry="2.55769"
+                                                        fill="#F2F2F2" />
+                                                </g>
+                                                <g id="mini-mark">
+                                                    <path id="Subtract" fill-rule="evenodd" clip-rule="evenodd"
+                                                        d="M9.94231 17.5385C9.94231 17.5385 16.8846 11.6923 16.8846 6.94231C16.8846 3.10818 13.7764 0 9.94231 0C6.10818 0 3 3.10818 3 6.94231C3 12.0577 9.94231 17.5385 9.94231 17.5385ZM9.94228 9.5C11.7584 9.5 13.2307 8.02771 13.2307 6.21154C13.2307 4.39537 11.7584 2.92308 9.94228 2.92308C8.12611 2.92308 6.65382 4.39537 6.65382 6.21154C6.65382 8.02771 8.12611 9.5 9.94228 9.5Z"
+                                                        fill="#13F1FC" />
+                                                </g>
+                                            </g>
+                                        </svg>
+                                    </div>
+                                    <span class="km-way__distance">5.0km</span>
+                                </div>
+                                <h3 class="km-way__title anim-item no-animtop">City Govt Hospital</h3>
+                                <p class="km-way__subtitle anim-item no-animtop">Connect with CityMap</p>
+                                <p class="km-way__descrp anim-item no-animtop">According to McClintock, a 15th century
+                                    typesetter likely
+                                    scrambled
+                                    part of Cicero's De Finibus in order to provide placeholder text to mockup various
+                                    fonts
+                                    for a type specimen book.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="app">
+            <div class="app__bg">
+                <div class="app__wave"></div>
+                <div class="container">
+                    <div class="app__block">
+                        <div class="app__city-app">
+                            <div class="city-app">
+                                <div class="city-app__img-border anim-item no-animtop">
+                                    <div class="city-app__img anim-item no-animtop"></div>
+                                </div>
+                                <div class="city-app__link-block link-block anim-item no-animtop">
+                                    <h2 class="link-block__title anim-item no-animtop">CityMap App</h2>
+                                    <p class="link-block__dscrp anim-item no-animtop">According to McClintock, a 15th
+                                        century typesetter
+                                        likely
+                                        scrambled part of Cicero's De Finibus in order to provide placeholder.</p>
+                                    <div class="link-block__button-group">
+                                        <a href="#" class="link-block__button-android anim-item no-animtop"><img
+                                                src="./img/android-icon.svg" alt="android-icon">DOWNLOAD</a>
+                                        <a href="#" class="link-block__button-ios anim-item no-animtop"><img
+                                                src="./img/ios-icon.svg" alt="ios-icon">DOWNLOAD</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="app__bottom-wave"></div>
+            </div>
+            <div class="app__bottom-block">
+                <div class="container">
+                    <div class="app__bottom-group anim-item no-animtop">
+                        <div class="app__true-footer true-footer">
+                            <div class="true-footer__item">
+                                <div class="citymap-social">
+                                    <div class="citymap-social__logo">
+                                        <img src="./img/footer/footer-logo.svg" alt="CityMap-logo">
+                                    </div>
+                                    <p class="citymap-social__dscrp">Then select departure date, how long the trip will
+                                        be
+                                        and how many destinations to include. Users can also select if they want to look
+                                        at
+                                        cities in Europe, the European Union or just the Schengen Zone. </p>
+                                    <div class="citymap-social__social-buttons">
+                                        <a href="#" class="citymap-social__button"><i class="fab fa-facebook-f"></i></a>
+                                        <a href="#" class="citymap-social__button"><i class="fab fa-twitter"></i></a>
+                                        <a href="#" class="citymap-social__button"><i
+                                                class="fab fa-google-plus-g"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="true-footer__item">
+                                <ul class="true-footer__list">
+                                    <a href="#" class="true-footer__link">About us</a>
+                                    <a href="#" class="true-footer__link">Contact</a>
+                                    <a href="#" class="true-footer__link">FAQ</a>
+                                    <a href="#" class="true-footer__link">Map</a>
+                                </ul>
+                            </div>
+                            <div class="true-footer__item">
+                                <ul class="true-footer__list">
+                                    <a href="#" class="true-footer__link">Blog</a>
+                                    <a href="#" class="true-footer__link">Keywords</a>
+                                    <a href="#" class="true-footer__link">Email</a>
+                                    <a href="#" class="true-footer__link">Notification</a>
+                                    <a href="#" class="true-footer__link">Settings</a>
+                                    <a href="#" class="true-footer__link">Update</a>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="app__coop">
+                            <p class="app__coop-text">2019, <span>Shabuj Khan</span></p>
+                        </div>
+                        <div class="app__double-tree anim-item no-animtop"></div>
+                        <div class="app__bottom-pillars anim-item no-animtop">
+                            <div class="app__bottom-shine anim-item no-animtop"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </main>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+<script src="js/script.min.js"></script>
+<script src="js/animScroll.js"></script>
+</body>
+
+</html>
